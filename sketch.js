@@ -14,7 +14,7 @@ function draw()
 {
   
    background(30);
-   text(mouseX+','+mouseY,mouseX,mouseY)
+   
   if (keyIsDown(RIGHT_ARROW)) 
   {
     box.position.x = box.position.x +5;
